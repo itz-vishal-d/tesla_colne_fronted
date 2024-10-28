@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla</title>
+  <style>
+    .w-part1{
+      background: url(./homepic1.avif);
+      height: 100vh;
+      width: 100% 100vh;
+      background-size: cover;
+      margin-top: 0px;
+    }
+    .w-part2{
+      background: url(./homepic2.avif);
+      height: 94vh;
+      width: 100% 100vh;
+      background-size: cover;
+      padding-top: 60px;
+    }
+    .w-part3{
+      background: url(./homepic3.avif);
+      height: 94vh;
+      width: 100% 100vh;
+      background-size: cover;
+      padding-top: 60px;
+    }
+
+    .w-part4{
+      background: url(./homepic4.avif);
+      height: 94vh;
+      width: 100% 100vh;
+      background-size: cover;
+      padding-top: 60px;
+    }
+
+    .w-part5{
+      background: url(./homepic5.avif);
+      height: 94vh;
+      width: 100% 100vh;
+      background-size: cover;
+      padding-top: 60px;
+    }
+
+    .w-part6{
+      background: url(./homepic6.avif);
+      height: 94vh;
+      width: 100% 100vh;
+      background-size: cover;
+      padding-top: 60px;
+    }
+
+    .w-part7{
+      background: url(./homepic7.avif);
+      height: 94vh;
+      width: 100% 100vh;
+      background-size: cover;
+      padding-top: 60px;
+    }
+
+    .w-part8{
+      background: url(./homepic8.avif);
+      height: 94vh;
+      width: 100% 100vh;
+      background-size: cover;
+      padding-top: 100px;
+    }
+    .w-part8 div {
+      padding-bottom: 10px;
+    }
+
+
+    .w-part9{
+      background: url(./homepic9.avif);
+      height: 94vh;
+      width: 100% 100vh;
+      background-size: cover;
+      padding-top: 60px;
+    }
+
+    .w-part9 div {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+    }
+
+    .w-part10{
+      background:black;
+      color: white;
+      padding-top: 50px;
+      height: 310px;
+      
+
+    }
+
+
+    body{
+      padding: 0px;
+      margin: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      scroll-behavior: smooth;
+    }
+    header{
+   
+      display: flex;
+      justify-content: space-between;
+      height: 50px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .header-p1 div{
+       height: 20px;
+    }
+    .header-p1 div img{
+      margin-top: -24px;
+      height: 110px;
+      background-position: cover;
+      background-size: contain; 
+    }
+
+    .header-p2{
+      font-size: 90%;
+      font-weight: 580;
+    }
+
+    .header-p2 nav ul{
+      display: flex;
+      list-style: none;
+      margin-left: -40px;
+    }
+    .header-p2 nav ul li{
+      margin-right: 10px;
+      padding: 10px;
+    }
+   
+    .header-p3{
+      padding: 0px;
+      align-items: center;
+    }
+
+    .header-p3 span img{
+      margin-top: -24px;
+      align-items: center;
+    }
+
+    .main1{
+      margin-top: 70px;
+      margin-bottom: -12px;
+      text-align: center;
+      font-size: larger;
+    }
+    .main1-1{
+      margin-top: 70px;
+      margin-bottom: -12px;
+      text-align: center;
+      font-size: larger;
+      color: white;
+    }
+    .main2{
+      text-align: center;
+      font-size: 140%;
+    }
+
+    .main2-2{
+      text-align: center;
+      font-size: 140%;
+      color: white;
+    }
+    
+    .main3{
+      font-size: 90%;
+      margin-top: 10px;
+      text-align: center;
+      color: rgb(61, 61, 61);
+    }
+
+    .main3-3{
+      font-size: 90%;
+      margin-top: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    .mainx2{
+      margin-top: 420px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .main-btn1{
+      margin-right: 12px;
+      padding: 10px;
+      padding-left: 85px;
+      padding-right: 85px;
+      border-radius: 4px;
+      background-color: white;
+      color: #393c41;
+      font-size: 90%;
+    }
+
+    .main-btn2{
+      margin-left: 12px;
+      background-color: #171a20;
+      color: white;
+      padding: 10px;
+      padding-left: 85px;
+      padding-right: 85px;
+      border-radius: 4px;
+      font-size: 90%;
+    }
+
+    .main-btn3{
+      margin-right: 12px;
+      padding: 15px;
+      padding-left: 85px;
+      padding-right: 85px;
+      border-top: 2px solid #909192;
+      background-color: #111111;
+      color: #a2a3a5;
+      font-size: 80%;
+    }
+    .main-btn4{
+      margin-right: 12px;
+      padding: 15px;
+      padding-left: 85px;
+      padding-right: 85px;
+      border: 1px solid #3b3a3a;
+      background-color: #111111;
+      color: #a2a3a5;
+      font-size: 80%;
+    }
+
+
+
+    .ftr{
+      text-align: center;
+      font-size: 80%;
+      margin-bottom: 18px;
+      padding: 5px;
+    }
+  
+    .ftr-txt1{
+      color: #d0d1d2;
+      padding-top: 10px;
+    }
+
+    .ftr-txt2{
+      color: #eeeeee;
+      margin-top: 10px;
+    }
+
+    .ftr-end{
+      text-align: center;
+      font-size: 75%;
+      margin-top: 45px;
+      padding: 10px;
+      color: #cecfcf;
+    }
+    .ftr-end span{
+      margin-right: 7px;
+      margin-left: 7px;
+    }
+    a{
+      text-decoration: none;
+    }
+    .a1{
+      color: #393c41;
+    }
+    .a2{
+      color: white;
+    }
+
+
+    
+  </style>
+</head>
+<body>
+  <div class="w-part1">
+    <header class="header-p1">
+      <div><img src="./tesla-namelogo.svg"></div>
+      <div class="header-p2">
+        <nav>
+          <ul>
+            <li>Vehicles</li>
+            <li>Energy</li>
+            <li>Charging</li>
+            <li>Discover</li>
+            <li>Shop</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-p3">
+        <span> <img src="./icon3.svg" width="25px"></span>
+        &nbsp;
+        <span><img src="./icon1.svg" width="25px"></span>
+        &nbsp;
+        <span><img src="./icon2.svg" width="25px"></span>
+      </div>
+
+    </header>
+    <main>
+
+      <div class="mainx1">
+        <div class="main1"><h1> Model 3 </h1></div>
+        <div class="main2"> Long Range AWD From $34,990<sup>1</sup> </div>
+        <div class="main3"> After Est. Savings </div>
+      </div>
+
+      <div class="mainx2">
+        <div class="main-btn1"> <a href="./icc-cricket/ICCnestedtable2.jpg" target="_blank" class="a1">Order Now</a></div>
+        <div class="main-btn2" > <a href="./teslabtnrightform.html" class="a2">Demo Drive</a></div>
+      </div>
+
+    </main>
+  </div>
+
+  <div class="w-part2">
+    <main>
+
+      <div class="mainx1">
+        <div class="main1"><h1> Model Y </h1></div>
+        <div class="main2"> From $31,490<sup>2</sup> </div>
+        <div class="main3"> After Est. Savings </div>
+      </div>
+
+      <div class="mainx2">
+        <div class="main-btn1"> Order Now </div>
+        <div class="main-btn2"> Demo Drive </div>
+      </div>
+
+    </main>
+
+  </div>
+
+
+  <div class="w-part3">
+    <main>
+
+      <div class="mainx1">
+        <div class="main1"><h1> Model S </h1></div>
+        <div class="main2"> From $66,490<sup>3</sup> </div>
+        <div class="main3"> After Est. Savings </div>
+      </div>
+
+      <div class="mainx2">
+        <div class="main-btn1"> Order Now </div>
+        <div class="main-btn2"> Demo Drive </div>
+      </div>
+
+    </main>
+
+  </div>
+
+
+  <div class="w-part4">
+    <main>
+
+      <div class="mainx1">
+        <div class="main1-1"><h1> Model X </h1></div>
+        <div class="main2-2"> From $63,990<sup>4</sup> </div>
+        <div class="main3-3"> After Est. Savings </div>
+      </div>
+
+      <div class="mainx2">
+        <div class="main-btn1"> Order Now </div>
+        <div class="main-btn2"> Demo Drive </div>
+      </div>
+
+    </main>
+  </div>
+
+  <div class="w-part5">
+    <main>
+
+      <div class="mainx1">
+        <div class="main1"><img src="./homepiclogo-cyber.svg" height="140px"></div>
+       
+      </div>
+
+      <div class="mainx2">
+        <div class="main-btn3"> ORDER NOW </div>
+        <div class="main-btn4"> LEARN MORE </div>
+      </div>
+
+    </main>
+  </div>
+
+
+  <div class="w-part6">
+    <main>
+
+      <div class="mainx1">
+        <div class="main1-1" color="white"><h1> Solar Panels </h1></div>
+        <div class="main3-3"> <u>Schedule a Virtual Consultation</u> </div>
+       
+      </div>
+
+      <div class="mainx2">
+        <div class="main-btn1"> Order Now </div>
+        <div class="main-btn2"> Learn More </div>
+      </div>
+
+    </main>
+  </div>
+
+  <div class="w-part7">
+    <main>
+
+      <div class="mainx1">
+        <div class="main1" color="white"><h1> Solar Roof </h1></div>
+        <div class="main3"> Produce Clean Energy From Your Roof </div>
+       
+      </div>
+
+      <div class="mainx2">
+        <div class="main-btn1"> Order Now </div>
+        <div class="main-btn2"> Learn More </div>
+      </div>
+
+    </main>
+  </div>
+
+
+  <div class="w-part8">
+    <main>
+
+      <div class="mainx1">
+        <div class="main1" color="white"><h1> Powerwall </h1></div>
+        <div class="main3">     </div>
+       
+      </div>
+
+      <div class="mainx2">
+        <div class="main-btn1"> Order Now </div>
+        <div class="main-btn2"> Learn More </div>
+      </div>
+
+    </main>
+  </div>
+
+
+  <div class="w-part9">
+    <main>
+
+      <div class="mainx1">
+        <div class="main1" color="white"><h1> Accessories
+        </h1></div>
+        
+       
+      </div>
+
+      <div class="mainx2">
+        <div class="main-btn1"> Shop Now </div>
+        
+      </div>
+
+    </main>
+  </div>
+
+
+  <div class="w-part10">
+    <footer>
+      <div class="ftr">
+        <span class="ftr-txt1"><sup>1</sup>  Price before estimated savings is $47,490, excluding taxes and fees. Subject to change.</span><br>
+        <span class="ftr-txt2"><u>Learn about est. gas savings.</u></span>
+      </div>
+      <div class="ftr">
+        <span class="ftr-txt1"><sup>2</sup> Price before estimated savings is $44,990, excluding taxes and fees. Subject to change.</span><br>
+        <span class="ftr-txt2"><u>Learn about est. gas savings.</u></span>
+      </div>
+      <div class="ftr">
+        <span class="ftr-txt1"><sup>3</sup> Price before estimated savings is $77,990, excluding taxes and fees. Subject to change.</span><br>
+        <span class="ftr-txt2"><u>Learn about est. gas savings.</u></span>
+      </div>
+      <div class="ftr">
+        <span class="ftr-txt1"><sup>4</sup> Price before estimated savings is $72,990, excluding taxes and fees. Subject to change.</span><br>
+        <span class="ftr-txt2"><u>Learn about est. gas savings.</u></span>
+      </div>
+
+
+      <div class="ftr-end">
+        <span>Tesla © 2024</span>
+        <span>Privacy & Legal</span>
+        <span>Vehicle Recalls</span>
+        <span>Contact</span>
+        <span>News</span>
+        <span>Get Updates</span>
+        <span>Locations</span>
+      </div>
+    </footer>
+
+  </div>
+
+
+  
+
+
+  
+</body>
+</html>
